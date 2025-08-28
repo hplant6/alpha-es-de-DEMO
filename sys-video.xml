@@ -1,0 +1,200 @@
+<theme>
+<view name="system">
+   
+        <carousel name="main">
+                <origin>0 0</origin>
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.036</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+                <imageType>none</imageType>
+                <itemScale>3</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <!-- <staticImage>./assets/mac/type/titles/${system.theme}.svg</staticImage> -->
+                <unfocusedItemOpacity>0</unfocusedItemOpacity>
+                <type>horizontalWheel</type>
+                <itemsBeforeCenter>0</itemsBeforeCenter>
+                <itemsAfterCenter>0</itemsAfterCenter>
+                <horizontalOffset>0</horizontalOffset>
+                <itemRotationOrigin> -3 -.05 </itemRotationOrigin>
+                <itemRotation>-25</itemRotation> 
+                <wheelHorizontalAlignment>left</wheelHorizontalAlignment>
+                <verticalOffset> -.28 </verticalOffset>
+                <color>${BGcolor}00</color>
+                <fastScrolling>true</fastScrolling>
+                <textColor>${BGcolor}</textColor>
+                <textSelectedColor>${selected}</textSelectedColor>
+                <zIndex>5</zIndex>
+        </carousel>
+
+        <animation name="animated-UI">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/16-9/system-video.json</path>
+            <iterationCount>1</iterationCount>
+            <zIndex>4</zIndex>
+        </animation>
+        
+        <image name="polaroidBG">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/PolaroidBG.png</path>
+            <zIndex>2</zIndex>
+        </image>
+        <video name="gamevid-r">
+            <pos>0.73 0.36 </pos>
+            <cropSize>.21 .37 </cropSize>
+            <cropPos>.5 0 </cropPos> 
+            <origin>.5 0 </origin>
+            <zIndex>3</zIndex>
+            <rotation>-4</rotation>
+            <gameselector>gameselector2</gameselector>
+        </video>
+        <video name="gamevid-l">
+            <pos>0.27 0.36 </pos>
+            <cropSize>.21 .37 </cropSize>
+            <cropPos>.5 0 </cropPos> 
+            <origin>.5 0 </origin>
+            <zIndex>3</zIndex>
+            <rotation>4</rotation>
+            <gameselector>gameselector1</gameselector>
+        </video>
+        <text name="gtitle-r">
+            <pos>0.735 0.74</pos>
+            <origin>.5 0 </origin>
+            <size>.15 .09</size>
+            <fontPath>./assets/mac/type/Corza.ttf</fontPath>
+            <fontSize>.04</fontSize>
+            <metadata>name</metadata>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${selected}</color>
+            <zIndex>5</zIndex>
+            <rotation>-6</rotation>
+            <gameselector>gameselector2</gameselector>
+        </text>
+        <text name="gtitle-l">
+            <pos>0.25 0.74</pos>
+            <origin>.5 0 </origin>
+            <size>.15 .09</size>
+            <fontPath>./assets/mac/type/Corza.ttf</fontPath>
+            <fontSize>.04</fontSize>
+            <metadata>name</metadata>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${selected}</color>
+            <zIndex>5</zIndex>
+            <rotation>6</rotation>
+            <gameselector>gameselector1</gameselector>
+        </text>
+        <image name="polaroidFG">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/PolaroidFG.png</path>
+            <zIndex>4</zIndex> 
+        </image>
+        <gameselector name="gameselector1">
+            <selection>lastplayed, random</selection>
+            <gameCount>1</gameCount>
+            <allowDuplicates>false</allowDuplicates>
+        </gameselector>
+        <gameselector name="gameselector2">
+            <selection>mostplayed, random</selection>
+            <gameCount>1</gameCount>
+            <allowDuplicates>false</allowDuplicates>
+        </gameselector>
+        <image name="cartridge">
+            <pos>0.5 0.61 </pos>
+            <origin>.5 .5 </origin>
+            <maxSize>.53 .53</maxSize>
+            <path>./assets/physical-media/${system.theme}.png</path>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="cartridgeshadow">
+            <pos>0.5 0.61 </pos>
+            <origin>.5 .5 </origin>
+            <maxSize>.53 .53</maxSize>
+            <color>000000</color>
+            <brightness>0</brightness>
+            <opacity>.25</opacity>
+            <path>./assets/physical-media/${system.theme}.png</path>
+            <zIndex>4</zIndex>
+        </image>
+        <text name="gstats">
+            <pos>.5 .92 </pos>
+            <origin>.5 .5 </origin>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <fontSize>.05</fontSize>
+             <systemdata>gamecount</systemdata>
+             
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${selected}</color>
+            <zIndex>5</zIndex>
+        </text>
+        <!--
+        <video name="mac-background">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/background.mp4</path>
+            <zIndex>1</zIndex>
+        </video> 
+        -->
+        <animation name="noise">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/noise.json</path>
+            <iterationCount>0</iterationCount>
+            <zIndex>6</zIndex>
+        </animation>
+        <image name="macimg-background">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/background.jpg</path>
+            <zIndex>0</zIndex>
+        </image> 
+        <clock name="sysclock">
+            <pos>.835 0</pos>
+            <scope>view</scope>
+            <origin>0 0 </origin>
+            <size>.25 .12</size>
+            <fontSize>.072</fontSize>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${selected}</color>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+        </clock>
+        <systemstatus name="status-ind">
+            <color>${selected}</color>
+            <pos>.16 .024</pos>
+            <entries>battery</entries>
+            <height>0.025</height>
+            <textRelativeScale>1</textRelativeScale>
+            <fontPath>./assets/mac/type/marvin-trial.otf</fontPath>
+            <customIcon icon="icon_battery_low">./assets/mac/icons/bat-low.svg</customIcon>
+            <customIcon icon="icon_battery_medium">./assets/mac/icons/bat-med.svg</customIcon>
+            <customIcon icon="icon_battery_high">./assets/mac/icons/bat-high.svg</customIcon>
+            <customIcon icon="icon_battery_full">./assets/mac/icons/bat-full.svg</customIcon>
+            <customIcon icon="icon_battery_icon_battery_charging">./assets/mac/icons/bat-charg.svg</customIcon>
+        </systemstatus>
+
+        <helpsystem name="help">
+            <pos>0.5 0.05 </pos>
+             <origin>.5 0 </origin>
+             <fontSize>.025</fontSize>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <textColor>${selected}</textColor>
+            <iconColor>${selected}</iconColor>
+            <letterCase>lowercase</letterCase>
+        </helpsystem>
+    </view>
+</theme>

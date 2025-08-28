@@ -1,0 +1,130 @@
+<!--
+   ALPHA
+
+ (alpha-es-de) Theme by Henry P.
+
+-->
+
+<theme>
+    <include>./base.xml</include>
+    <!--complete-->
+    <variant name="videos-videos">
+        <include>./sys-video.xml</include>
+        <include>./glist-video.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="videos-plain">
+        <include>./sys-video.xml</include>
+        <include>./glist-plain.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="videos-mixed">
+        <include>./sys-video.xml</include>
+        <include>./glist-mixed.xml</include>
+    </variant>
+    <variant name="videos-carousel">
+        <include>./sys-video.xml</include>
+        <include>./glist-carousel.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="videos-grid-video">
+        <include>./sys-video.xml</include>
+        <include>./glist-grid-v.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="videos-grid-plain">
+        <include>./sys-video.xml</include>
+        <include>./glist-grid-p.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="videos-grid-mixed">
+        <include>./sys-video.xml</include>
+        <include>./glist-grid-m.xml</include>
+    </variant>
+    <variant name="cartridges-videos">
+        <include>./sys-cart.xml</include>
+        <include>./glist-video.xml</include>
+    </variant>
+    <variant name="cartridges-plain">
+        <include>./sys-cart.xml</include>
+        <include>./glist-plain.xml</include>
+    </variant>
+    <variant name="cartridges-mixed">
+        <include>./sys-cart.xml</include>
+        <include>./glist-mixed.xml</include>
+    </variant>
+    <variant name="cartridges-carousel">
+        <include>./sys-cart.xml</include>
+        <include>./glist-carousel.xml</include>
+    </variant>
+    <variant name="cartridges-grid-video">
+        <include>./sys-cart.xml</include>
+        <include>./glist-grid-v.xml</include>
+    </variant>
+    <variant name="cartridges-grid-plain">
+        <include>./sys-cart.xml</include>
+        <include>./glist-grid-p.xml</include>
+    </variant>
+    <variant name="cartridges-grid-mixed">
+        <include>./sys-cart.xml</include>
+        <include>./glist-grid-m.xml</include>
+    </variant>
+    <variant name="list-videos">
+        <include>./sys-list.xml</include>
+        <include>./glist-video.xml</include>
+    </variant>
+    <variant name="list-plain">
+        <include>./sys-list.xml</include>
+        <include>./glist-plain.xml</include>
+    </variant>
+    <variant name="list-mixed">
+        <include>./sys-list.xml</include>
+        <include>./glist-mixed.xml</include>
+    </variant>
+    <variant name="list-carousel">
+        <include>./sys-list.xml</include>
+        <include>./glist-carousel.xml</include>
+    </variant>
+    <variant name="list-grid-video">
+        <include>./sys-list.xml</include>
+        <include>./glist-grid-v.xml</include>
+    </variant>
+    <variant name="list-grid-plain">
+        <include>./sys-list.xml</include>
+        <include>./glist-grid-p.xml</include>
+    </variant>
+    <variant name="list-grid-mixed">
+        <include>./sys-list.xml</include>
+        <include>./glist-grid-m.xml</include>
+    </variant>
+    <variant name="sSaver-videos">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-video.xml</include>
+    </variant>
+    <variant name="sSaver-plain">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-plain.xml</include>
+    </variant>
+    <variant name="sSaver-mixed">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-mixed.xml</include>
+    </variant>
+    <variant name="sSaver-carousel">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-carousel.xml</include>
+    </variant>
+    <variant name="sSaver-grid-video">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-grid-v.xml</include>
+    </variant>
+    <variant name="sSaver-grid-plain">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-grid-p.xml</include>
+    </variant>
+    <variant name="sSaver-grid-mixed">
+        <include>./sys-ssaver.xml</include>
+        <include>./glist-grid-m.xml</include>
+    </variant>              
+    
+   
+</theme>        

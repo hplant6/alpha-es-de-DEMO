@@ -1,0 +1,58 @@
+<theme>
+    <view name="all">
+        <sound name="systembrowse">
+            <path>./assets/mac/sounds/Tink_01.wav</path>
+        </sound>
+        <sound name="quicksysselect">
+            <path>./assets/mac/sounds/Frog.wav</path>
+        </sound>
+        <sound name="select">
+            <path>./assets/mac/sounds/Hero.wav</path>
+        </sound>
+        <sound name="back">
+            <path>./assets/mac/sounds/Sosumi.wav</path>
+        </sound>
+        <sound name="scroll">
+            <path>./assets/mac/sounds/Pop.wav</path>
+        </sound>
+        <sound name="favorite">
+            <path>./assets/mac/sounds/Quack.wav</path>
+        </sound>
+        <sound name="launch">
+            <path>./assets/mac/sounds/StartupMacQuadra.wav</path>
+        </sound>
+    </view> 
+    <variables>
+       <!-- colors -->
+        <BGcolor>DFC1A1</BGcolor>
+        <selected>222222</selected>
+        <glist>DFC1A1</glist>
+        <white>ffffff</white>
+        <gmenu>444444</gmenu>
+
+        <!-- font type -->
+    </variables>
+
+<!-- Font Sizes -->
+    <fontSize name="large">
+        <variables>
+            
+        </variables>
+    </fontSize>
+    <fontSize name="medium">
+        <variables>
+            
+        </variables>
+    </fontSize>
+    <fontSize name="small">
+        <variables>
+            
+        </variables>
+    </fontSize>
+
+    <colorScheme name="mac">
+        <variables>
+
+        </variables>
+    </colorScheme>
+</theme>

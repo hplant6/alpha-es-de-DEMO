@@ -1,0 +1,114 @@
+<theme>
+<view name="system">
+   
+        <carousel name="main">
+                <origin>.5 0</origin>
+                <pos>.5 .11</pos>	
+                <size>1 1</size>
+                <fontSize>.036</fontSize>
+                <itemSize>.26 .26</itemSize> 
+                <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+                <staticImage>./assets/physical-media/${system.theme}.png</staticImage>
+                <maxItemCount>3</maxItemCount>
+                <imageType>none</imageType>
+                <itemScale>2.1</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <selectedItemMargins>0 0</selectedItemMargins>
+                <selectedItemOffset>0 0</selectedItemOffset>                
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+                <type>horizontal</type>
+                <color>${BGcolor}00</color>
+                <fastScrolling>true</fastScrolling>
+                <textColor>${BGcolor}</textColor>
+                <textSelectedColor>${selected}</textSelectedColor>
+                <zIndex>5</zIndex>
+        </carousel>
+        <text name="sys-title">
+            <pos>.5 0.04</pos>
+            <origin>.5 0</origin>
+            <size>.7 .35</size>
+            <lineSpacing>1</lineSpacing>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <fontSize>.1</fontSize>
+            <systemdata>fullname</systemdata>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${selected}</color>
+            <letterCase>capitalize</letterCase>
+            <zIndex>5</zIndex>
+        </text>
+
+        <animation name="animated-UI">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/16-9/system-cart.json</path>
+            <iterationCount>1</iterationCount>
+            <zIndex>5</zIndex>
+        </animation>
+    
+        <text name="gstats">
+            <pos>.5 .92 </pos>
+            <origin>.5 .5 </origin>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <fontSize>.05</fontSize>
+            <systemdata>gamecount</systemdata> 
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${white}</color>
+            <zIndex>5</zIndex>
+        </text>
+        <animation name="noise">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/noise.json</path>
+            <iterationCount>0</iterationCount>
+            <zIndex>6</zIndex>
+        </animation>
+        <image name="macimg-background">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/background.jpg</path>
+            <color>ffffff</color>
+            <colorEnd>1f0f0070</colorEnd>
+            <gradientType>vertical</gradientType>
+            <zIndex>0</zIndex>
+        </image> 
+        <clock name="sysclock">
+            <pos>.835 0</pos>
+            <scope>view</scope>
+            <origin>0 0 </origin>
+            <size>.25 .12</size>
+            <fontSize>.072</fontSize>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${selected}</color>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+        </clock>
+        <systemstatus name="status-ind">
+            <color>${selected}</color>
+            <pos>.16 .024</pos>
+            <entries>battery</entries>
+            <height>0.025</height>
+            <textRelativeScale>1</textRelativeScale>
+            <fontPath>./assets/mac/type/marvin-trial.otf</fontPath>
+            <customIcon icon="icon_battery_low">./assets/mac/icons/bat-low.svg</customIcon>
+            <customIcon icon="icon_battery_medium">./assets/mac/icons/bat-med.svg</customIcon>
+            <customIcon icon="icon_battery_high">./assets/mac/icons/bat-high.svg</customIcon>
+            <customIcon icon="icon_battery_full">./assets/mac/icons/bat-full.svg</customIcon>
+            <customIcon icon="icon_battery_icon_battery_charging">./assets/mac/icons/bat-charg.svg</customIcon>
+        </systemstatus>
+
+        <helpsystem name="help">
+            <pos>0.5 0.05 </pos>
+             <origin>.5 0 </origin>
+             <fontSize>.025</fontSize>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <textColor>${selected}</textColor>
+            <iconColor>${selected}</iconColor>
+            <letterCase>lowercase</letterCase>
+        </helpsystem>
+    </view>
+</theme>

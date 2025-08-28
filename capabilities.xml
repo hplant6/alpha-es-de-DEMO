@@ -1,0 +1,166 @@
+<themeCapabilities>
+    <themeName>Alpha</themeName>
+    
+    <aspectRatio>1:1</aspectRatio>
+    <aspectRatio>8:7</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>5:4</aspectRatio>
+    <aspectRatio>3:2</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>19.5:9</aspectRatio>
+    <aspectRatio>20:9</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+    <aspectRatio>5:3_vertical</aspectRatio>
+
+    <fontSize>large</fontSize>
+    <fontSize>medium</fontSize>
+    <fontSize>small</fontSize>
+
+    <colorScheme name="mac">
+        <label>Mac</label>
+    </colorScheme>
+    
+    
+    <variant name="videos-videos">
+        <label>Videos - Videos</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="videos-plain">
+        <label>Videos - Poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="videos-mixed">
+        <label>Videos - Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="videos-carousel">
+        <label>Videos - Carousel</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="videos-grid-video">
+        <label>Videos - Grid + video</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="videos-grid-plain">
+        <label>Videos - Grid + Poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="videos-grid-mixed">
+        <label>Videos - Grid + Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-videos">
+        <label>Cartridges - Videos</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-plain">
+        <label>Cartridges - Pposter</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-mixed">
+        <label>Cartridges - Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-carousel">
+        <label>Cartridges - Carousel</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-grid-video">
+        <label>Cartridges - Grid + video</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-grid-plain">
+        <label>Cartridges - Grid + Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-grid-mixed">
+        <label>Cartridges - Grid + Plain poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-videos">
+        <label>List - Videos</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-plain">
+        <label>List - Plain poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-mixed">
+        <label>List - Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-carousel">
+        <label>List - Carousel</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-grid-video">
+        <label>List - Grid + video</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-grid-plain">
+        <label>List - Grid + Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="list-grid-mixed">
+        <label>List - Grid + Plain poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-videos">
+        <label>Screensaver - Videos</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-plain">
+        <label>Screensaver - Plain poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-mixed">
+        <label>Screensaver - Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-carousel">
+        <label>Screensaver - Carousel</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-grid-video">
+        <label>Screensaver - Grid + video</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-grid-plain">
+        <label>Screensaver - Grid + Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="sSaver-grid-mixed">
+        <label>Screensaver - Grid + Plain poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+   
+</themeCapabilities>

@@ -1,0 +1,205 @@
+<theme>
+    <view name="gamelist">
+        <carousel name="main">
+            <origin>0 0</origin>
+            <pos>0 0</pos>	
+            <size>1 .9</size>
+            <itemSize>.2 0.1</itemSize> 
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <imageType>none</imageType>
+            <itemScale>2.6</itemScale>
+            <itemsBeforeCenter>0</itemsBeforeCenter>
+            <itemsAfterCenter>5</itemsAfterCenter>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <type>vertical</type>
+            <color>${BGcolor}00</color>
+            <textColor>${glist}</textColor>
+            <textSelectedColor>${white}</textSelectedColor>
+            <lineSpacing>1</lineSpacing>
+
+            <selectedItemOffset>0 0</selectedItemOffset> 
+            <selectedItemMargins>0.4 .28</selectedItemMargins>
+            <maxItemCount>10</maxItemCount>
+            <itemHorizontalAlignment>left</itemHorizontalAlignment>
+            
+            <itemAxisRotation>0</itemAxisRotation>
+            <itemDiagonalOffset>0</itemDiagonalOffset>
+            <horizontalOffset>.05</horizontalOffset>
+            <verticalOffset>-.15</verticalOffset>
+            <zIndex>5</zIndex>
+        </carousel>
+        <text name="alpha-title">
+            <pos>.16 .04</pos>
+            <origin>1 0</origin>
+            <fontPath>./assets/mac/type/trapper.ttf</fontPath>
+            <fontSize>.035</fontSize>
+            <text>alpha</text>
+            <horizontalAlignment>right</horizontalAlignment>
+            <color>${gmenu}</color>
+            <letterCase>lowercase</letterCase>
+            <zIndex>5</zIndex>
+        </text>
+        <image name="syslogo">
+            <pos>0.05 .12</pos>
+            <path>./assets/logos/${system.theme}.svg</path>
+            <maxSize>.2 .07</maxSize>
+            <zIndex>5</zIndex>
+        </image>    
+        <gamelistinfo name="gcount">
+            <pos>0.05 .91</pos>
+            <size>.2 .07</size>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <color>${glist}</color>
+            <fontSize>.028</fontSize>
+            <zIndex>5</zIndex>
+        </gamelistinfo>
+        <rating name="gamerating">
+            <pos>0.045 0.45</pos>
+            <size> .053 .03 </size>
+            <color>${white}</color>
+            <zIndex>5</zIndex>
+        </rating>
+        <!--
+        <image name="game-media">
+            <pos>0.726 0.35 </pos>
+            <origin>.5 1 </origin>
+            <maxSize>.232 .3</maxSize>
+            <imageType>physicalmedia</imageType>
+            <default>./assets/physical-media/${system.theme}.png</default>
+            <zIndex>5</zIndex>
+        </image>
+        -->
+        <image name="cover">
+            <pos>0.726 0.52 </pos>
+            <origin>.5 .5 </origin>
+            <cropSize>.283 .735</cropSize>
+            <imageType>cover</imageType>
+            <color>${white}</color>
+            <colorEnd>${white}50</colorEnd>
+            <gradientType>vertical</gradientType>
+            <scrollFadeIn>true</scrollFadeIn>
+            <default>./assets/physical-media/${system.theme}.png</default>
+            <zIndex>5</zIndex>
+        </image>
+        <video name="gamevid">
+            <pos>0.598 0.521 </pos>
+            <cropSize>.31 .408</cropSize>
+            <cropPos>.5 0 </cropPos> 
+            <origin>.5 0 </origin>
+            <zIndex>6</zIndex>
+            
+            
+        </video>
+        
+        <badges name="gbadges">
+            <pos>0.0405 0.53 </pos>
+            <size>.35 .1</size>
+            <direction>row</direction> 
+            <lines>6</lines>
+            <itemsPerLine>6</itemsPerLine>
+            <itemMargin> 0.05 0.05</itemMargin>
+            <slots>all</slots>
+            <horizontalAlignment>left</horizontalAlignment>
+            <badgeIconColor>ffffff</badgeIconColor>
+            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.png</customBadgeIcon>
+            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.png</customBadgeIcon>
+            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.png</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.png</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.png</customBadgeIcon>
+            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.png</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.png</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.png</customBadgeIcon>
+            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.png</customBadgeIcon>
+                <zIndex>6</zIndex>
+        </badges>
+        <image name="video-frame">
+            <pos>0 0</pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/gamelist/video-frame.png</path>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="lightbox">
+            <pos>0 0</pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/gamelist/video-lightbox.png</path>
+            <zIndex>3</zIndex>
+        </image>
+        <image name="cable">
+            <pos>0 0</pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/gamelist/cable.png</path>
+            <opacity>.62</opacity>
+            <zIndex>2</zIndex>
+        </image>
+        <animation name="lines">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/gamelist/16-9/gamelist-plain.json</path>
+            <iterationCount>1</iterationCount>
+            <zIndex>2</zIndex>
+        </animation>
+        <animation name="noise">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/noise.json</path>
+            <iterationCount>0</iterationCount>
+            <zIndex>7</zIndex>
+        </animation>
+        <image name="macimg-background">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/gamelist/gbackground-video.jpg</path>
+            <zIndex>0</zIndex>
+            <opacity>.6</opacity>
+        </image> 
+        <animation name="animated-UI">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/16-9/gamelist-plain.json</path>
+            <iterationCount>1</iterationCount>
+            <zIndex>3</zIndex>
+        </animation>
+        <clock name="sysclock">
+            <pos>.835 0</pos>
+            <scope>view</scope>
+            <origin>0 0 </origin>
+            <size>.25 .12</size>
+            <fontSize>.072</fontSize>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${gmenu}</color>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+        </clock>
+        <systemstatus name="gstatus-ind">
+            <color>${gmenu}</color>
+            <pos>.16 .024</pos>
+            <entries>battery</entries>
+            <height>0.025</height>
+            <textRelativeScale>1</textRelativeScale>
+            <fontPath>./assets/mac/type/marvin-trial.otf</fontPath>
+            <customIcon icon="icon_battery_low">./assets/mac/icons/bat-low.svg</customIcon>
+            <customIcon icon="icon_battery_medium">./assets/mac/icons/bat-med.svg</customIcon>
+            <customIcon icon="icon_battery_high">./assets/mac/icons/bat-high.svg</customIcon>
+            <customIcon icon="icon_battery_full">./assets/mac/icons/bat-full.svg</customIcon>
+            <customIcon icon="icon_battery_icon_battery_charging">./assets/mac/icons/bat-charg.svg</customIcon>
+        </systemstatus>
+        <helpsystem name="help">
+            <pos>0.5 0.05 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.025</fontSize>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <textColor>${gmenu}</textColor>
+            <iconColor>${gmenu}</iconColor>
+            <letterCase>lowercase</letterCase>
+        </helpsystem>
+    </view>    
+</theme>
