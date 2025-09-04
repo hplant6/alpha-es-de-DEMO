@@ -1,0 +1,688 @@
+<theme>
+<view name="system">
+   
+        <carousel name="main">
+                <origin>0 0</origin>
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.036</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+                <imageType>none</imageType>
+                <itemScale>3</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <!-- <staticImage>./assets/mac/type/titles/${system.theme}.svg</staticImage> -->
+                <unfocusedItemOpacity>0</unfocusedItemOpacity>
+                <type>horizontalWheel</type>
+                <itemsBeforeCenter>0</itemsBeforeCenter>
+                <itemsAfterCenter>0</itemsAfterCenter>
+                <horizontalOffset>0</horizontalOffset>
+                <itemRotationOrigin> -3 -.05 </itemRotationOrigin>
+                <itemRotation>-25</itemRotation> 
+                <wheelHorizontalAlignment>left</wheelHorizontalAlignment>
+                <verticalOffset> -.28 </verticalOffset>
+                <color>${BGcolor}00</color>
+                <fastScrolling>true</fastScrolling>
+                <textColor>${BGcolor}</textColor>
+                <textSelectedColor>${selected}</textSelectedColor>
+                <zIndex>5</zIndex>
+        </carousel>
+        <animation name="animated-UI">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/16-9/system-video.json</path>
+            <iterationCount>1</iterationCount>
+            <zIndex>4</zIndex>
+        </animation>
+        <image name="polaroidBG">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/frames/16-9/PolaroidBG.png</path>
+            <zIndex>2</zIndex>
+        </image>
+        <image name="gameimg-r">
+            <pos>0.73 0.36 </pos>
+            <cropSize>.21 .37 </cropSize>
+            <cropPos>.5 0 </cropPos> 
+            <origin>.5 0 </origin>
+            <zIndex>3</zIndex>
+            <rotation>-4</rotation>
+            <imageType>cover, screenshot</imageType>
+            <gameselector>gameselector2</gameselector>
+        </image>
+        <image name="gameimg-l">
+            <pos>0.27 0.36 </pos>
+            <cropSize>.21 .37 </cropSize>
+            <cropPos>.5 0 </cropPos> 
+            <origin>.5 0 </origin>
+            <zIndex>3</zIndex>
+            <rotation>4</rotation>
+            <imageType>cover, screenshot</imageType>
+            <gameselector>gameselector1</gameselector>
+        </image>
+        <text name="gtitle-r">
+            <pos>0.735 0.74</pos>
+            <origin>.5 0 </origin>
+            <size>.15 .09</size>
+            <fontPath>./assets/mac/type/Corza.ttf</fontPath>
+            <fontSize>.04</fontSize>
+            <metadata>name</metadata>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${selected}</color>
+            <zIndex>5</zIndex>
+            <rotation>-6</rotation>
+            <gameselector>gameselector2</gameselector>
+        </text>
+        <text name="gtitle-l">
+            <pos>0.25 0.74</pos>
+            <origin>.5 0 </origin>
+            <size>.15 .09</size>
+            <fontPath>./assets/mac/type/Corza.ttf</fontPath>
+            <fontSize>.04</fontSize>
+            <metadata>name</metadata>
+            <lineSpacing>1</lineSpacing>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${selected}</color>
+            <zIndex>5</zIndex>
+            <rotation>6</rotation>
+            <gameselector>gameselector1</gameselector>
+        </text>
+        <image name="polaroidFG">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/frames/16-9/PolaroidFG.png</path>
+            <zIndex>4</zIndex> 
+        </image>
+        <gameselector name="gameselector1">
+            <selection>lastplayed, random</selection>
+            <gameCount>1</gameCount>
+            <allowDuplicates>false</allowDuplicates>
+        </gameselector>
+        <gameselector name="gameselector2">
+            <selection>mostplayed, random</selection>
+            <gameCount>1</gameCount>
+            <allowDuplicates>false</allowDuplicates>
+        </gameselector>
+        <image name="cartridge">
+            <pos>0.5 0.61 </pos>
+            <origin>.5 .5 </origin>
+            <maxSize>.53 .53</maxSize>
+            <path>./assets/physical-media/${system.theme}.png</path>
+            <zIndex>7</zIndex>
+        </image>
+        <image name="cartridgeshadow">
+            <pos>0.503 0.62 </pos>
+            <origin>.5 .5 </origin>
+            <maxSize>.53 .53</maxSize>
+            <color>000000</color>
+            <brightness>0</brightness>
+            <opacity>.25</opacity>
+            <path>./assets/physical-media/${system.theme}.png</path>
+            <zIndex>6</zIndex>
+        </image>
+        <text name="gstats">
+            <pos>.5 .92 </pos>
+            <origin>.5 .5 </origin>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <fontSize>.05</fontSize>
+            <systemdata>gamecount</systemdata>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${white}</color>
+            <zIndex>5</zIndex>
+        </text>
+        <animation name="noise">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <stationary>withinView</stationary>
+            <path>./assets/mac/animations/noise.json</path>
+            <iterationCount>0</iterationCount>
+            <zIndex>6</zIndex>
+        </animation>
+        <image name="macimg-background">
+            <pos>0 0 </pos>
+            <origin>0 0 </origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/background.jpg</path>
+            <color>ffffff</color>
+            <colorEnd>1f0f0070</colorEnd>
+            <gradientType>vertical</gradientType>
+            <zIndex>0</zIndex>
+        </image> 
+        <clock name="sysclock">
+            <pos>.835 0</pos>
+            <scope>view</scope>
+            <origin>0 0 </origin>
+            <size>.25 .12</size>
+            <fontSize>.072</fontSize>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>${selected}</color>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+        </clock>
+        <systemstatus name="status-ind">
+            <color>${selected}</color>
+            <pos>.16 .024</pos>
+            <entries>battery</entries>
+            <height>0.025</height>
+            <textRelativeScale>1</textRelativeScale>
+            <fontPath>./assets/mac/type/marvin-trial.otf</fontPath>
+            <customIcon icon="icon_battery_low">./assets/mac/icons/bat-low.svg</customIcon>
+            <customIcon icon="icon_battery_medium">./assets/mac/icons/bat-med.svg</customIcon>
+            <customIcon icon="icon_battery_high">./assets/mac/icons/bat-high.svg</customIcon>
+            <customIcon icon="icon_battery_full">./assets/mac/icons/bat-full.svg</customIcon>
+            <customIcon icon="icon_battery_icon_battery_charging">./assets/mac/icons/bat-charg.svg</customIcon>
+        </systemstatus>
+        <helpsystem name="help">
+            <pos>0.5 0.05 </pos>
+             <origin>.5 0 </origin>
+             <fontSize>.025</fontSize>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <textColor>${selected}</textColor>
+            <iconColor>${selected}</iconColor>
+            <letterCase>lowercase</letterCase>
+        </helpsystem>
+    </view>
+    <aspectRatio name="1:1">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/1-1/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/1-1/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/1-1/PolaroidFG.png</path>
+            </image>
+            <carousel name="main">
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.027</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <itemScale>3</itemScale>
+                <verticalOffset> -.28 </verticalOffset>
+            </carousel>
+            <image name="cartridge">
+                <pos>0.5 0.61 </pos>
+                <maxSize>.53 .53</maxSize>
+            </image>
+            <image name="cartridgeshadow">
+                <pos>0.503 0.617 </pos>
+                <maxSize>.53 .53</maxSize>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.82 0.42 </pos>
+                <cropSize>.35 .37 </cropSize>
+                <cropPos>0 0 </cropPos> 
+                <rotation>-4</rotation>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.17 0.42 </pos>
+                <cropSize>.35 .37 </cropSize>
+                <cropPos>.7 0 </cropPos> 
+                <rotation>4</rotation>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.84 0.74</pos>
+                <size>.27 .09</size>
+                <fontSize>.032</fontSize>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.16 0.74</pos>
+                <size>.27 .09</size>
+                <fontSize>.032</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.83 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="8:7">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/8-7/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/8-7/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/8-7/PolaroidFG.png</path>
+            </image>
+            <carousel name="main">
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.027</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <itemScale>3</itemScale>
+                <verticalOffset> -.28 </verticalOffset>
+            </carousel>
+            <image name="cartridge">
+                <pos>0.5 0.61 </pos>
+                <maxSize>.53 .53</maxSize>
+            </image>
+            <image name="cartridgeshadow">
+                <pos>0.503 0.617 </pos>
+                <maxSize>.53 .53</maxSize>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.79 0.38 </pos>
+                <cropSize>.31 .37 </cropSize>
+                <cropPos>0 0 </cropPos> 
+                <rotation>-4</rotation>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.2 0.38 </pos>
+                <cropSize>.31 .37 </cropSize>
+                <cropPos>.7 0 </cropPos> 
+                <rotation>4</rotation>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.8 0.7</pos>
+                <size>.27 .09</size>
+                <fontSize>.035</fontSize>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.2 0.7</pos>
+                <size>.27 .09</size>
+                <fontSize>.035</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.84 0</pos>
+                <fontSize>.069</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="4:3">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/4-3/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/4-3/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/4-3/PolaroidFG.png</path>
+            </image>
+            <carousel name="main">
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.029</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <itemScale>3</itemScale>
+                <verticalOffset> -.28 </verticalOffset>
+            </carousel>
+            <image name="cartridge">
+                <pos>0.5 0.61 </pos>
+                <maxSize>.55 .55</maxSize>
+            </image>
+            <image name="cartridgeshadow">
+                <pos>0.503 0.617 </pos>
+                <maxSize>.53 .53</maxSize>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.82 0.38 </pos>
+                <cropSize>.31 .39 </cropSize>
+                <cropPos>0 0 </cropPos> 
+                <rotation>-4</rotation>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.18 0.38 </pos>
+                <cropSize>.31 .39 </cropSize>
+                <cropPos>.7 0 </cropPos> 
+                <rotation>4</rotation>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.83 0.78</pos>
+                <size>.27 .09</size>
+                <fontSize>.038</fontSize>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.16 0.78</pos>
+                <size>.27 .09</size>
+                <fontSize>.038</fontSize>
+            </text>
+            <text name="gstats">
+                <pos>.5 .94 </pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.11 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:4">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/5-4/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/5-4/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/5-4/PolaroidFG.png</path>
+            </image>
+            <carousel name="main">
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.029</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <itemScale>3</itemScale>
+                <verticalOffset> -.28 </verticalOffset>
+            </carousel>
+            <image name="cartridge">
+                <pos>0.5 0.61 </pos>
+                <maxSize>.55 .55</maxSize>
+            </image>
+            <image name="cartridgeshadow">
+                <pos>0.503 0.617 </pos>
+                <maxSize>.55 .55</maxSize>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.84 0.36 </pos>
+                <cropSize>.31 .39 </cropSize>
+                <cropPos>0 0 </cropPos> 
+                <rotation>-4</rotation>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.16 0.36 </pos>
+                <cropSize>.31 .39 </cropSize>
+                <cropPos>.7 0 </cropPos> 
+                <rotation>4</rotation>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.85 0.75</pos>
+                <size>.27 .09</size>
+                <fontSize>.038</fontSize>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.15 0.75</pos>
+                <size>.27 .09</size>
+                <fontSize>.038</fontSize>
+            </text>
+            <text name="gstats">
+                <pos>.5 .94 </pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.11 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/3-2/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/3-2/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/3-2/PolaroidFG.png</path>
+            </image>
+            <carousel name="main">
+                <pos>0 0</pos>	
+                <size>1 1</size>
+                <fontSize>.033</fontSize>
+                <itemSize>.3 .3</itemSize> 
+                <itemScale>3</itemScale>
+                <verticalOffset> -.28 </verticalOffset>
+            </carousel>
+            <image name="cartridge">
+                <pos>0.5 0.61 </pos>
+                <maxSize>.55 .55</maxSize>
+            </image>
+            <image name="cartridgeshadow">
+                <pos>0.503 0.617 </pos>
+                <maxSize>.55 .55</maxSize>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.78 0.357 </pos>
+                <cropSize>.25 .4 </cropSize>
+                <cropPos>0 0 </cropPos> 
+                <rotation>-3</rotation>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.22 0.357 </pos>
+                <cropSize>.25 .4 </cropSize>
+                <cropPos>.7 0 </cropPos> 
+                <rotation>3</rotation>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.785 0.73</pos>
+                <size>.25 .09</size>
+                <fontSize>.038</fontSize>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.21 0.73</pos>
+                <size>.25 .09</size>
+                <fontSize>.038</fontSize>
+            </text>
+            <text name="gstats">
+                <pos>.5 .925 </pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.88 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.11 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/16-10/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/16-10/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/16-10/PolaroidFG.png</path>
+            </image>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/195-9/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/195-9/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/195-9/PolaroidFG.png</path>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.69 0.35 </pos>
+                <cropSize>.18 .38 </cropSize>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.31 0.35 </pos>
+                <cropSize>.18 .38 </cropSize>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.7 0.732</pos>
+                <size>.15 .09</size>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.3 0.732</pos>
+                <size>.15 .09</size>
+            </text>
+            <text name="gstats">
+                <pos>.5 .925 </pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="20:9">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/20-9/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/20-9/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/20-9/PolaroidFG.png</path>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.69 0.35 </pos>
+                <cropSize>.18 .38 </cropSize>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.31 0.35 </pos>
+                <cropSize>.18 .38 </cropSize>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.69 0.732</pos>
+                <size>.15 .09</size>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.31 0.732</pos>
+                <size>.15 .09</size>
+            </text>
+            <text name="gstats">
+                <pos>.5 .925 </pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/21-9/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/21-9/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/21-9/PolaroidFG.png</path>
+            </image>
+            <image name="gameimg-r">
+                <pos>0.67 0.35 </pos>
+                <cropSize>.17 .38 </cropSize>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.325 0.35 </pos>
+                <cropSize>.17 .38 </cropSize>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.68 0.735</pos>
+                <size>.15 .09</size>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.32 0.735</pos>
+                <size>.15 .09</size>
+            </text>
+            <text name="gstats">
+                <pos>.5 .935 </pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+     <aspectRatio name="5:3_vertical">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/5-3/system-video.json</path>
+            </animation>
+            <image name="polaroidBG">
+                <path>./assets/mac/frames/5-3/PolaroidBG.png</path>
+            </image>
+            <image name="polaroidFG">
+                <path>./assets/mac/frames/5-3/PolaroidFG.png</path>
+            </image>
+            <carousel name="main">
+                <pos>0 0</pos>	
+                <fontSize>.034</fontSize>
+            </carousel>
+            <image name="gameimg-r">
+                <pos>0.7 0.65 </pos>
+                <cropSize>.36 .21 </cropSize>
+            </image>
+            <image name="gameimg-l">
+                <pos>0.3 0.65 </pos>
+                <cropSize>.36 .21 </cropSize>
+            </image>
+            <text name="gtitle-r">
+                <pos>0.725 0.853</pos>
+                <size>.33 .05</size>
+                <fontSize>.037</fontSize>
+            </text>
+            <text name="gtitle-l">
+                <pos>0.275 0.853</pos>
+                <size>.33 .05</size>
+                <fontSize>.037</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.65 -0.02</pos>
+                <horizontalAlignment>right</horizontalAlignment> 
+            </clock>
+            <image name="cartridge">
+                <pos>0.5 0.48 </pos>
+                <origin>.5 .5 </origin>
+                <maxSize>.49 .49</maxSize>
+            </image>
+            <image name="cartridgeshadow">
+                <pos>0.503 0.49 </pos>
+                <maxSize>.49 .49</maxSize>
+            </image>
+            <systemstatus name="status-ind">
+                <pos>.24 .015</pos>
+                <height>0.035</height>
+            </systemstatus>
+            <text name="gstats">
+                <pos>.5 .96 </pos>
+            </text>
+            <helpsystem name="help">
+                <pos>0.5 0.085 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.031</fontSize>
+            </helpsystem>
+        </view>
+    </aspectRatio>
+</theme>

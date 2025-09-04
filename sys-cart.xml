@@ -64,7 +64,6 @@
             <size>1 1</size>
             <stationary>withinView</stationary>
             <path>./assets/mac/animations/noise.json</path>
-            <iterationCount>0</iterationCount>
             <zIndex>6</zIndex>
         </animation>
         <image name="macimg-background">
@@ -111,4 +110,249 @@
             <letterCase>lowercase</letterCase>
         </helpsystem>
     </view>
+    <aspectRatio name="1:1">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/1-1/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <pos>.5 .13</pos>	
+                <size>1 1</size>
+                <fontSize>.029</fontSize>
+                <itemSize>.24 .24</itemSize> 
+                <itemScale>1.9</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <selectedItemMargins>.02 .02</selectedItemMargins>
+                <selectedItemOffset>0 0</selectedItemOffset>                
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+                <type>horizontal</type>
+                <color>${BGcolor}00</color>
+                <fastScrolling>true</fastScrolling>
+                <textColor>${BGcolor}</textColor>
+                <textSelectedColor>${selected}</textSelectedColor>
+                <zIndex>5</zIndex>
+            </carousel>
+            <text name="sys-title">
+                <pos>.5 0.09</pos>
+                <origin>.5 0</origin>
+                <size>.75 .3</size>
+                <fontSize>.08</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.83 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="8:7">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/8-7/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <pos>.5 .13</pos>	
+                <size>1 1</size>
+                <fontSize>.029</fontSize>
+                <itemSize>.24 .24</itemSize> 
+                <itemScale>1.95</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <selectedItemMargins>.02 .02</selectedItemMargins>
+                <selectedItemOffset>0 0</selectedItemOffset>                
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+                <type>horizontal</type>
+                <color>${BGcolor}00</color>
+                <fastScrolling>true</fastScrolling>
+                <textColor>${BGcolor}</textColor>
+                <textSelectedColor>${selected}</textSelectedColor>
+                <zIndex>5</zIndex>
+            </carousel>
+            <text name="sys-title">
+                <pos>.5 0.09</pos>
+                <origin>.5 0</origin>
+                <size>.75 .3</size>
+                <fontSize>.09</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.84 0</pos>
+                <fontSize>.069</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="4:3">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/4-3/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <origin>.5 0</origin>
+                <pos>.5 .12</pos>	
+                <itemScale>1.9</itemScale>
+            </carousel>
+            
+            <text name="sys-title">
+                <fontSize>.09</fontSize>
+            </text>
+            
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.11 .024</pos>
+            </systemstatus>
+        
+        </view>
+    </aspectRatio>
+     <aspectRatio name="5:4">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/4-3/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <origin>.5 0</origin>
+                <pos>.5 .12</pos>	
+                <itemScale>1.9</itemScale>
+            </carousel>
+            
+            <text name="sys-title">
+                <fontSize>.09</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.11 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+      <aspectRatio name="3:2">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/3-2/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <origin>.5 0</origin>
+                <pos>.5 .12</pos>	
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <text name="sys-title">
+                <fontSize>.09</fontSize>
+            </text>
+            
+            <clock name="sysclock">
+                <pos>.88 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.11 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <view name="system">
+            
+        </view>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/20-9/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <maxItemCount>5</maxItemCount>
+                <itemScale>2.1</itemScale>
+                <selectedItemMargins>0.04 0.04</selectedItemMargins>          
+            </carousel>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="20:9">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/20-9/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <maxItemCount>5</maxItemCount>
+                <itemScale>2.1</itemScale>
+                <selectedItemMargins>0.04 0.04</selectedItemMargins>          
+            </carousel>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="system">
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/20-9/system-cart.json</path>
+            </animation>
+            <carousel name="main">
+                <maxItemCount>5</maxItemCount>
+                <itemScale>2.1</itemScale>
+                <selectedItemMargins>0.04 0.04</selectedItemMargins>          
+            </carousel>
+            <clock name="sysclock">
+                <pos>.77 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.23 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="system">
+            <carousel name="main">
+                <pos>.5 .11</pos>	
+                <itemSize>.21 .21</itemSize> 
+                <itemScale>2.5</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <selectedItemMargins>.04 .04</selectedItemMargins>
+                <selectedItemOffset>0 -0.03</selectedItemOffset>                
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+            </carousel>
+            <animation name="animated-UI">
+                <path>./assets/mac/animations/5-3/system-cart.json</path>
+            </animation>
+            <text name="sys-title">
+                <pos>.5 0.11</pos>
+                <origin>.5 0</origin>
+                <size>.85 .3</size>
+                <fontSize>.12</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.65 -0.02</pos>
+                <horizontalAlignment>right</horizontalAlignment> 
+            </clock>
+            <systemstatus name="status-ind">
+                <pos>.24 .015</pos>
+                <height>0.035</height>
+            </systemstatus>
+            <text name="gstats">
+                <pos>.5 .954 </pos>
+            </text>
+            <helpsystem name="help">
+                <pos>0.5 0.085 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.031</fontSize>
+            </helpsystem>
+        </view>
+    </aspectRatio>
 </theme>

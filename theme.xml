@@ -41,6 +41,40 @@
         <include>./sys-video.xml</include>
         <include>./glist-grid-m.xml</include>
     </variant>
+    <!--complete-->
+    <variant name="images-videos">
+        <include>./sys-images.xml</include>
+        <include>./glist-video.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="images-plain">
+        <include>./sys-images.xml</include>
+        <include>./glist-plain.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="images-mixed">
+        <include>./sys-images.xml</include>
+        <include>./glist-mixed.xml</include>
+    </variant>
+    <variant name="images-carousel">
+        <include>./sys-images.xml</include>
+        <include>./glist-carousel.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="images-grid-video">
+        <include>./sys-images.xml</include>
+        <include>./glist-grid-v.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="images-grid-plain">
+        <include>./sys-images.xml</include>
+        <include>./glist-grid-p.xml</include>
+    </variant>
+    <!-- complete -->
+    <variant name="images-grid-mixed">
+        <include>./sys-images.xml</include>
+        <include>./glist-grid-m.xml</include>
+    </variant>
     <variant name="cartridges-videos">
         <include>./sys-cart.xml</include>
         <include>./glist-video.xml</include>

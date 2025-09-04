@@ -57,6 +57,41 @@
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
+    <variant name="images-videos">
+        <label>Images - Videos</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="images-plain">
+        <label>Images - Poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="images-mixed">
+        <label>Images - Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="images-carousel">
+        <label>Images - Carousel</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="images-grid-video">
+        <label>Images - Grid + video</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="images-grid-plain">
+        <label>Images - Grid + Poster</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="images-grid-mixed">
+        <label>Images - Grid + Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
     <variant name="cartridges-videos">
         <label>Cartridges - Videos</label>
         <selectable>true</selectable>
