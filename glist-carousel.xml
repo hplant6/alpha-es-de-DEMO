@@ -13,7 +13,7 @@
                 <selectedItemOffset>0 -.06</selectedItemOffset>
                 <itemScale>1.85</itemScale>
                 <lineSpacing>.9</lineSpacing>
-                <defaultImage>./assets/physical-media/${system.theme}.svg</defaultImage>
+                <defaultImage>./assets/physical-media/${system.theme}.png</defaultImage>
                 <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
                 <color>${BGcolor}00</color>
                 <fastScrolling>true</fastScrolling>
@@ -110,9 +110,17 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/gbackground-blank.jpg</path>
+            <path>./assets/mac/animations/gamelist/gbackground-blank.png</path>
             <zIndex>0</zIndex>
         </image> 
+        <image name="bgfil">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+            <path>./assets/mac/animations/bgfil.svg</path>
+            <zIndex>-1</zIndex>
+            <opacity>.6</opacity>
+        </image>
         <clock name="sysclock">
             <pos>.835 0</pos>
             <scope>view</scope>
@@ -146,5 +154,389 @@
             <letterCase>lowercase</letterCase>
             <entries>left/right, x, y, start, lr</entries>
         </helpsystem>
-    </view>    
+    </view>
+     <aspectRatio name="1:1">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/1-1/gamelist-cart.json</path>
+            </animation>
+            <carousel name="games">
+                <pos>.5 .33</pos>	
+                <size>1 1</size>
+                <fontSize>.036</fontSize>
+                <itemSize>.2 .3</itemSize> 
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>.04 .04</selectedItemMargins>
+                <selectedItemOffset>0 -.11</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+                <lineSpacing>.9</lineSpacing>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 .27</pos>
+                <origin>.5 0</origin>
+                <size>.9 .22</size>
+                <fontSize>.08</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>.04 .04</size>
+                <pos>0.045 0.54</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.043 0.59</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1 </origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.15 .04</pos>
+                <origin>1 0</origin>
+                <fontSize>.035</fontSize>
+            </text>
+            <clock name="sysclock">
+                <pos>.83 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="8:7">
+        <view name="gamelist">
+             <animation name="lines">
+                <path>./assets/mac/animations/gamelist/8-7/gamelist-cart.json</path>
+            </animation>
+            <carousel name="games">
+                <pos>.5 0.324</pos>
+                <size>1.01 1</size>
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>0.03 0.03</selectedItemMargins>
+                <selectedItemOffset>0 -0.10</selectedItemOffset>
+                <itemScale>1.8</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.274</pos>
+                <size>0.88 0.19</size>
+                <fontSize>0.084</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.042 0.038</size>
+                <pos>0.045 0.52</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.042 0.574</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.14 .04</pos>
+                <origin>1 0</origin>
+            </text>
+            <clock name="sysclock">
+                <pos>.84 0</pos>
+                <fontSize>.069</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+           <animation name="lines">
+                <path>./assets/mac/animations/gamelist/4-3/gamelist-cart.json</path>
+            </animation>
+            <carousel name="games">
+                <pos>.5 0.29</pos>
+                <size>1.03 1</size>
+                <itemSize>.17 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.08</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.28</pos>
+                <size>0.84 0.14</size>
+                <fontSize>0.09</fontSize>
+            </text>
+            <gamelistinfo name="gcount">
+            <pos>0.05 .19</pos>
+            <size>.2 .07</size>
+            <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
+            <color>${glist}</color>
+            <fontSize>.028</fontSize>
+            <zIndex>5</zIndex>
+        </gamelistinfo>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.046 0.034</size>
+                <pos>0.045 0.48</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.041 0.54</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:4">
+        <view name="gamelist">
+           <animation name="lines">
+                <path>./assets/mac/animations/gamelist/5-4/gamelist-cart.json</path>
+            </animation>
+            <carousel name="games">
+                <pos>.5 0.32</pos>
+                <size>1.02 1</size>
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>0.054 0.054</selectedItemMargins>
+                <selectedItemOffset>0 -0.09</selectedItemOffset>
+                <itemScale>1.88</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.276</pos>
+                <size>0.86 0.16</size>
+                <fontSize>0.086</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.044 0.036</size>
+                <pos>0.045 0.50</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.041 0.56</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+           <animation name="lines">
+                <path>./assets/mac/animations/gamelist/3-2/gamelist-cart.json</path>
+            </animation>
+             <carousel name="games">
+                <pos>.5 0.29</pos>
+                <size>1.03 1</size>
+                <itemSize>.17 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.08</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.284</pos>
+                <size>0.9 0.11</size>
+                <fontSize>0.094</fontSize>
+            </text>
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+                <size>0.05 0.032</size>
+                <pos>0.045 0.46</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.04 0.52</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <view name="gamelist">
+           <animation name="lines">
+                <path>./assets/mac/animations/gamelist/16-10/gamelist-cart.json</path>
+            </animation>
+            <carousel name="games">
+                <pos>.5 0.28</pos>
+                <size>1.06 1</size>
+                <itemSize>.18 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.075 0.075</selectedItemMargins>
+                <selectedItemOffset>0 -0.06</selectedItemOffset>
+                <itemScale>2</itemScale>
+            </carousel>
+            <text name="game-title">
+                <pos>.5 0.288</pos>
+                <size>0.81 0.08</size>
+                <fontSize>0.098</fontSize>
+            </text>
+            <rating name="gamerating">
+                <pos>0.045 0.45</pos>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.04 0.51</pos>
+            </badges>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 .7</size>
+            </image>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/195-9/gamelist-cart.json</path>
+            </animation>
+            <text name="game-title">
+                <size>0.91 0.08</size>
+            </text>
+            <carousel name="games">
+                <pos>.5 0.29</pos>
+                <size>1.03 1</size>
+                <itemSize>.19 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.04</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <clock name="sysclock">
+                <pos>.9 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="20:9">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/20-9/gamelist-cart.json</path>
+            </animation>
+            <text name="game-title">
+                <size>0.91 0.08</size>
+            </text>
+            <carousel name="games">
+                <pos>.5 0.31</pos>
+                <size>1.03 1</size>
+                <itemSize>.19 .25</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <selectedItemOffset>0 -0.04</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <badges name="gbadges">
+                <pos>0.041 0.53 </pos>
+                <size>.22 .1</size>
+            </badges>
+            <clock name="sysclock">
+                <pos>.905 -.01</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/21-9/gamelist-cart.json</path>
+            </animation>
+            <text name="game-title">
+                <size>0.91 0.08</size>
+            </text>
+            <carousel name="games">
+                <pos>.5 0.27</pos>
+                <size>1.03 1</size>
+                <itemSize>.21 .26</itemSize> 
+                <maxItemCount>5</maxItemCount>
+                <selectedItemMargins>0.05 0.05</selectedItemMargins>
+                <selectedItemOffset>0 -0.06</selectedItemOffset>
+                <itemScale>1.9</itemScale>
+            </carousel>
+            <badges name="gbadges">
+                <pos>0.0405 0.525 </pos>
+                <size>.22 .1</size>
+            </badges>
+            <clock name="sysclock">
+                <pos>.9 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>    
 </theme>

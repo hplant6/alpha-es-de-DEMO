@@ -98,7 +98,7 @@
         <transitions>instantFade</transitions>
     </variant>
     <variant name="cartridges-plain">
-        <label>Cartridges - Pposter</label>
+        <label>Cartridges - Poster</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
@@ -113,16 +113,16 @@
         <transitions>instantFade</transitions>
     </variant>
     <variant name="cartridges-grid-video">
-        <label>Cartridges - Grid + video</label>
-        <selectable>true</selectable>
-        <transitions>instantFade</transitions>
-    </variant>
-    <variant name="cartridges-grid-plain">
-        <label>Cartridges - Grid + Mixed</label>
+        <label>Cartridges - Grid + Video</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
     <variant name="cartridges-grid-mixed">
+        <label>Cartridges - Grid + Mixed</label>
+        <selectable>true</selectable>
+        <transitions>instantFade</transitions>
+    </variant>
+    <variant name="cartridges-grid-plain">
         <label>Cartridges - Grid + Plain poster</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
@@ -148,17 +148,17 @@
         <transitions>instantFade</transitions>
     </variant>
     <variant name="list-grid-video">
-        <label>List - Grid + video</label>
+        <label>List - Grid + Video</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
     <variant name="list-grid-plain">
-        <label>List - Grid + Mixed</label>
+        <label>List - Grid + Poster</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
     <variant name="list-grid-mixed">
-        <label>List - Grid + Plain poster</label>
+        <label>List - Grid + Mixed</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
@@ -168,7 +168,7 @@
         <transitions>instantFade</transitions>
     </variant>
     <variant name="sSaver-plain">
-        <label>Screensaver - Plain poster</label>
+        <label>Screensaver - Plain Poster</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
@@ -188,12 +188,12 @@
         <transitions>instantFade</transitions>
     </variant>
     <variant name="sSaver-grid-plain">
-        <label>Screensaver - Grid + Mixed</label>
+        <label>Screensaver - Plain</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>
     <variant name="sSaver-grid-mixed">
-        <label>Screensaver - Grid + Plain poster</label>
+        <label>Screensaver - Grid + Mixed</label>
         <selectable>true</selectable>
         <transitions>instantFade</transitions>
     </variant>

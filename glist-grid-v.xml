@@ -72,7 +72,6 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            
             <path>./assets/mac/animations/gamelist/16-9/gamelist-grid.json</path>
             <iterationCount>1</iterationCount>
             <zIndex>2</zIndex>
@@ -136,7 +135,6 @@
             <opacity>.62</opacity>
             <zIndex>2</zIndex>
         </image>
-    
         <animation name="noise">
             <pos>0 0 </pos>
             <origin>0 0 </origin>
@@ -151,7 +149,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/gbackground-video.jpg</path>
+            <path>./assets/mac/animations/gamelist/gbackground-video.png</path>
             <zIndex>0</zIndex>
         </image> 
         <clock name="sysclock">
@@ -179,12 +177,613 @@
         </systemstatus>
         <helpsystem name="help">
             <pos>0.5 0.05 </pos>
-                <origin>.5 0 </origin>
-                <fontSize>.025</fontSize>
+            <origin>.5 0 </origin>
+            <fontSize>.025</fontSize>
             <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
             <textColor>${gmenu}</textColor>
             <iconColor>${gmenu}</iconColor>
             <letterCase>lowercase</letterCase>
+            <entries>left/right, x, y, start, lr</entries>
         </helpsystem>
-    </view>    
+    </view>
+    <aspectRatio name="1:1">
+        <view name="gamelist">
+                <animation name="lines">
+                    <path>./assets/mac/animations/gamelist/1-1/gamelist-grid.json</path>
+                </animation>
+
+                <grid name="game-grid">
+                    <pos>.048 .41</pos>	
+                    <size>.47 .55</size>
+                    <itemSize>0.15 0.14</itemSize>
+                    <itemScale>1.15</itemScale>
+                    <itemSpacing>0.04 0.03</itemSpacing>
+                </grid>
+                <rating name="gamerating">
+                    <pos>0.045 0.32</pos>
+                    <size> .048 .03 </size>
+                </rating>
+                <badges name="gbadges">
+                    <pos>0.608 0.41 </pos>     
+                </badges>
+                <text name="game-title">
+                    <pos>.05 .22</pos>
+                    <size>.9 .07</size>
+                </text> 
+
+                <image name="syslogo">
+                    <zIndex>10</zIndex>
+                </image> 
+                <rating name="gamerating">
+                    <zIndex>10</zIndex>
+                </rating>
+                <image name="cover">
+                    <pos>0.7712 0.664</pos>
+                    <origin>.5 .5</origin>
+                    <cropSize>0.3396 0.52</cropSize>
+                </image>
+                <image name="lightbox">
+                    <pos>-.1 1</pos>
+                    <origin>0 1 </origin>
+                    <size>1.2 .7</size>
+                    <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                    <zIndex>3</zIndex>
+                </image>
+                <video name="gamevid">
+                    <pos>0.598 0.7306</pos>
+                    <cropSize>0.31 0.2295</cropSize>
+                    <cropPos>.5 0</cropPos>
+                    <origin>.5 0</origin>
+                </video>
+                <image name="video-frame">
+                    <pos>0 1</pos>
+                    <origin>0 1 </origin>
+                    <size>1 0.5625</size>
+                    <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                    <zIndex>5</zIndex>
+                </image>
+                <image name="macimg-background">
+                    <pos>-.1 1</pos>
+                    <origin>0 1 </origin>
+                    <size>1.2 .7</size>
+                </image>
+                <image name="cable">
+                    <pos>-.1 1</pos>
+                    <origin>0 1 </origin>
+                    <size>1.2 .7</size>
+                    <path>./assets/mac/frames/gamelist/cable.png</path>
+                    <opacity>.62</opacity>
+                    <zIndex>2</zIndex>
+                </image>
+                <text name="alpha-title">
+                    <pos>.15 .04</pos>
+                    <origin>1 0</origin>
+                    <fontPath>./assets/mac/type/trapper.ttf</fontPath>
+                    <fontSize>.035</fontSize>
+                    <text>alpha</text>
+                    <horizontalAlignment>right</horizontalAlignment>
+                    <color>${gmenu}</color>
+                    <letterCase>lowercase</letterCase>
+                    <zIndex>5</zIndex>
+                </text>
+                <clock name="sysclock">
+                    <pos>.83 0</pos>
+                    <fontSize>.06</fontSize>
+                </clock>
+                <systemstatus name="gstatus-ind">
+                    <pos>.14 .024</pos>
+                </systemstatus>
+            </view>
+    </aspectRatio>
+    <aspectRatio name="8:7">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/8-7/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                    <pos>.048 .41</pos>	
+                    <size>.47 .55</size>
+                    <itemSize>0.15 0.14</itemSize>
+                    <itemScale>1.15</itemScale>
+                    <itemSpacing>0.04 0.03</itemSpacing>
+                </grid>
+                <rating name="gamerating">
+                    <pos>0.045 0.32</pos>
+                    <size> .048 .03 </size>
+                </rating>
+                <badges name="gbadges">
+                    <pos>0.608 0.325 </pos>     
+                </badges>
+                <text name="game-title">
+                    <pos>.05 .22</pos>
+                    <size>.9 .07</size>
+                </text> 
+
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <rating name="gamerating">
+                <zIndex>10</zIndex>
+            </rating>
+            <image name="cover">
+                <pos>0.7712 0.616</pos>
+                <origin>.5 .5</origin>
+                <cropSize>0.3396 0.595</cropSize>
+            </image>
+            <image name="lightbox">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.8</size>
+                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <zIndex>3</zIndex>
+            </image>
+            <video name="gamevid">
+                <pos>0.598 0.6921</pos>
+                <cropSize>0.31 0.2623</cropSize>
+                <cropPos>.5 0</cropPos>
+                <origin>.5 0</origin>
+            </video>
+            <image name="video-frame">
+                <pos>0 1</pos>
+                <origin>0 1</origin>
+                <size>1 0.6429</size>
+                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.8</size>
+            </image>
+            <image name="cable">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.8</size>
+                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <opacity>.62</opacity>
+                <zIndex>2</zIndex>
+            </image>
+            <text name="alpha-title">
+                <pos>.14 .04</pos>
+                <origin>1 0</origin>
+            </text>
+            <clock name="sysclock">
+                <pos>.84 0</pos>
+                <fontSize>.069</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.14 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/4-3/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                <pos>.048 .41</pos>	
+                <size>.47 .55</size>
+                <itemSize>0.15 0.14</itemSize>
+                <itemScale>1.15</itemScale>
+                <itemSpacing>0.04 0.03</itemSpacing>
+            </grid>
+            <rating name="gamerating">
+                <pos>0.045 0.32</pos>
+                <size> .048 .03 </size>
+                <zIndex>10</zIndex>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.608 0.245 </pos>     
+            </badges>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.55 .07</size>
+            </text> 
+
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+
+            <image name="cover">
+                <pos>0.7712 0.568</pos>
+                <origin>.5 .5</origin>
+                <cropSize>0.3396 0.666</cropSize>
+            </image>
+            <image name="lightbox">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.9</size>
+                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <zIndex>3</zIndex>
+            </image>
+            <video name="gamevid">
+                <pos>0.598 0.6408</pos>
+                <cropSize>0.31 0.306</cropSize>
+                <cropPos>.5 0</cropPos>
+                <origin>.5 0</origin>
+            </video>
+            <image name="video-frame">
+                <pos>0 1</pos>
+                <origin>0 1</origin>
+                <size>1 0.75</size>
+                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.9</size>
+            </image>
+            <image name="cable">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.9</size>
+                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <opacity>.62</opacity>
+                <zIndex>2</zIndex>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:4">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/5-4/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                <pos>.048 .41</pos>	
+                <size>.47 .55</size>
+                <itemSize>0.15 0.14</itemSize>
+                <itemScale>1.15</itemScale>
+                <itemSpacing>0.04 0.03</itemSpacing>
+            </grid>
+            <rating name="gamerating">
+                <pos>0.045 0.32</pos>
+                <size> .048 .03 </size>
+                <zIndex>10</zIndex>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.608 0.285 </pos>     
+            </badges>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.55 .07</size>
+            </text> 
+
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <image name="cover">
+                <pos>0.7712 0.5905</pos>
+                <origin>.5 .5</origin>
+                <cropSize>0.3396 0.6313</cropSize>
+            </image>
+            <image name="lightbox">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.8531</size>
+                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <zIndex>3</zIndex>
+            </image>
+            <video name="gamevid">
+                <pos>0.598 0.6632</pos>
+                <cropSize>0.31 0.2869</cropSize>
+                <cropPos>.5 0</cropPos>
+                <origin>.5 0</origin>
+            </video>
+            <image name="video-frame">
+                <pos>0 1</pos>
+                <origin>0 1</origin>
+                <size>1 0.7031</size>
+                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.8531</size>
+            </image>
+            <image name="cable">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 0.8531</size>
+                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <opacity>.62</opacity>
+                <zIndex>2</zIndex>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/3-2/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                <pos>.047 .41</pos>	
+                <size>.47 .55</size>
+                <itemSize>0.15 0.14</itemSize>
+                <itemScale>1.15</itemScale>
+                <itemSpacing>0.04 0.03</itemSpacing>
+            </grid>
+            <rating name="gamerating">
+                <pos>0.045 0.32</pos>
+                <size> .048 .03 </size>
+                <zIndex>10</zIndex>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.608 0.16 </pos>     
+            </badges>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.55 .07</size>
+            </text> 
+
+            <image name="syslogo">
+                <zIndex>10</zIndex>
+            </image>
+            <image name="cover">
+                <pos>0.7712 0.52</pos>
+                <origin>.5 .5</origin>
+                <cropSize>0.3396 0.74</cropSize>
+            </image>
+            <image name="lightbox">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 1</size>
+                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <zIndex>3</zIndex>
+            </image>
+            <video name="gamevid">
+                <pos>0.598 0.5958</pos>
+                <cropSize>0.31 0.3443</cropSize>
+                <cropPos>.5 0</cropPos>
+                <origin>.5 0</origin>
+            </video>
+            <image name="video-frame">
+                <pos>0 1</pos>
+                <origin>0 1</origin>
+                <size>1 0.8438</size>
+                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="macimg-background">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 1</size>
+            </image>
+            <image name="cable">
+                <pos>-.1 1</pos>
+                <origin>0 1</origin>
+                <size>1.2 1</size>
+                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <opacity>.62</opacity>
+                <zIndex>2</zIndex>
+            </image>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <view name="gamelist">
+        <animation name="lines">
+                <path>./assets/mac/animations/gamelist/16-10/gamelist-grid.json</path>
+            </animation>
+             <badges name="gbadges">
+                <pos>0.607 0.165 </pos>     
+            </badges>
+            <image name="lightbox">
+                <origin>0.5 0.5</origin>
+                <pos>0.52 0.5</pos>
+                <size>0.95 1</size>
+            </image>
+            <image name="video-frame">
+                <origin>0.5 1</origin>
+                <pos>0.5 1</pos>
+                <size>0.8798 0.85</size>
+            </image>
+            <video name="gamevid">
+                <pos>0.5862 0.5929</pos>
+                <cropSize>0.2727 0.3468</cropSize>
+            </video>
+            <image name="cover">
+                <pos>0.7347 0.52</pos>
+                <cropSize>0.2689 0.735</cropSize>
+            </image>
+            <clock name="sysclock">
+                <pos>.87 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.13 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.13 .04</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="19.5:9">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/195-9/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                <origin>0 0</origin> 
+                <pos>.03 .41</pos>	
+                <size>.47 .55</size>
+                <itemSize>0.13 0.14</itemSize>
+            </grid>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.6 .07</size>
+            </text> 
+
+            <image name="lightbox">
+                <origin>0.5 0.5</origin>
+                <pos>0.56 0.5</pos>
+                <size>0.8205 1</size>
+            </image>
+            <badges name="gbadges">
+                <pos>0.635 0.165 </pos>     
+                <size>.25 .1</size>
+            </badges>
+            <image name="video-frame">
+                <origin>0.5 0.5</origin>
+                <pos>0.56 0.5</pos>
+                <size>0.8205 1</size>
+            </image>
+            <video name="gamevid">
+                <pos>0.515 0.521</pos>
+                <cropSize>0.2544 0.408</cropSize>
+            </video>
+            <image name="cover">
+                <pos>0.7454 0.52</pos>
+                <cropSize>0.233 0.739</cropSize>
+            </image>
+            <clock name="sysclock">
+                <pos>.9 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="20:9">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/20-9/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                <origin>0 0</origin> 
+                <pos>.027 .41</pos>	
+                <size>.47 .55</size>
+                <itemSize>0.13 0.14</itemSize>
+            </grid>
+            <badges name="gbadges">
+                <pos>0.635 0.165 </pos>     
+                <size>.25 .1</size>
+            </badges>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.6 .07</size>
+            </text> 
+
+            <image name="lightbox">
+                <origin>0.5 0.5</origin>
+                <pos>0.56 0.5</pos>
+                <size>0.8 1</size>
+            </image>
+            <image name="cover">
+                <pos>0.7408 0.52</pos>
+                <cropSize>0.227 0.739</cropSize>
+            </image>
+            <image name="video-frame">
+                <origin>0.5 0.5</origin>
+                <pos>0.56 0.5</pos>
+                <size>0.8 1</size>
+            </image>
+            <video name="gamevid">
+                <pos>0.515 0.521</pos>
+                <cropSize>0.248 0.408</cropSize>
+            </video>
+            <clock name="sysclock">
+                <pos>.89 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="gamelist">
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/21-9/gamelist-grid.json</path>
+            </animation>
+
+            <grid name="game-grid">
+                <origin>0 0</origin> 
+                <pos>.02 .41</pos>	
+                <size>.47 .55</size>
+                <itemSize>0.13 0.14</itemSize>
+            </grid>
+            <badges name="gbadges">
+                <pos>0.63 0.165 </pos>     
+                <size>.25 .1</size>
+            </badges>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.6 .07</size>
+            </text> 
+
+            <image name="lightbox">
+                <origin>0.5 0.5</origin>
+                <pos>0.56 0.5</pos>
+                <size>0.7619 1</size>
+            </image>
+            <image name="video-frame">
+                <origin>0.5 0.5</origin>
+                <pos>0.56 0.5</pos>
+                <size>0.7619 1</size>
+            </image>
+            <video name="gamevid">
+                <pos>0.516 0.521</pos>
+                <cropSize>0.2362 0.408</cropSize>
+            </video>
+            <image name="cover">
+                <pos>0.7322 0.52</pos>
+                <cropSize>0.2163 0.739</cropSize>
+            </image>
+            <clock name="sysclock">
+                <pos>.9 0</pos>
+                <fontSize>.06</fontSize>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.1 .024</pos>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.1 .045</pos>
+            </text>
+        </view>
+    </aspectRatio>    
 </theme>
