@@ -98,7 +98,7 @@
             <pos>0 0</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+            <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
             <zIndex>3</zIndex>
         </image>
         <image name="cable">
@@ -210,7 +210,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1 </origin>
                 <size>1.2 .7</size>
-                <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <image name="macimg-background">
@@ -284,7 +284,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.8</size>
-                <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <image name="macimg-background">
@@ -351,7 +351,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.9</size>
-                <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <image name="macimg-background">
@@ -417,7 +417,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.8531</size>
-                <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <image name="macimg-background">
@@ -483,7 +483,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 1</size>
-                <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <image name="macimg-background">

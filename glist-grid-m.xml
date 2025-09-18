@@ -117,7 +117,7 @@
             <pos>0 0</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
+            <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
             <zIndex>3</zIndex>
         </image>
         <image name="cable">
