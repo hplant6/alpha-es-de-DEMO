@@ -42,7 +42,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/PolaroidBG.png</path>
+            <path>./assets/mac/animations/PolaroidBG.webp</path>
             <zIndex>2</zIndex>
         </image>
         <video name="gamevid-r">
@@ -97,7 +97,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/PolaroidFG.png</path>
+            <path>./assets/mac/animations/PolaroidFG.webp</path>
             <zIndex>4</zIndex> 
         </image>
         <gameselector name="gameselector1">
@@ -114,7 +114,7 @@
             <pos>0.5 0.61 </pos>
             <origin>.5 .5 </origin>
             <maxSize>.53 .53</maxSize>
-            <path>./assets/physical-media/${system.theme}.png</path>
+            <path>./assets/physical-media/${system.theme}.webp</path>
             <zIndex>5</zIndex>
         </image>
         <image name="cartridgeshadow">
@@ -124,7 +124,7 @@
             <color>000000</color>
             <brightness>0</brightness>
             <opacity>.25</opacity>
-            <path>./assets/physical-media/${system.theme}.png</path>
+            <path>./assets/physical-media/${system.theme}.webp</path>
             <zIndex>4</zIndex>
         </image>
         <text name="gstats">
@@ -149,7 +149,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/background.jpg</path>
+            <path>./assets/mac/animations/background.webp</path>
             <zIndex>0</zIndex>
         </image> 
         <clock name="sysclock">

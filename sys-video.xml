@@ -40,7 +40,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/frames/system/16-9/PolaroidBG.png</path>
+            <path>./assets/mac/frames/system/16-9/PolaroidBG.webp</path>
             <zIndex>2</zIndex>
         </image>
         <video name="gamevid-r">
@@ -95,7 +95,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/frames/system/16-9/PolaroidFG.png</path>
+            <path>./assets/mac/frames/system/16-9/PolaroidFG.webp</path>
             <zIndex>4</zIndex> 
         </image>
         <gameselector name="gameselector1">
@@ -112,7 +112,7 @@
             <pos>0.5 0.61 </pos>
             <origin>.5 .5 </origin>
             <maxSize>.53 .53</maxSize>
-            <path>./assets/physical-media/${system.theme}.png</path>
+            <path>./assets/physical-media/${system.theme}.webp</path>
             <zIndex>7</zIndex>
         </image>
         <image name="cartridgeshadow">
@@ -122,7 +122,7 @@
             <color>000000</color>
             <brightness>0</brightness>
             <opacity>.25</opacity>
-            <path>./assets/physical-media/${system.theme}.png</path>
+            <path>./assets/physical-media/${system.theme}.webp</path>
             <zIndex>6</zIndex>
         </image>
         <text name="gstats">
@@ -148,7 +148,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/background.jpg</path>
+            <path>./assets/mac/animations/background.webp</path>
             <color>ffffff</color>
             <colorEnd>1f0f0070</colorEnd>
             <gradientType>vertical</gradientType>
@@ -193,10 +193,10 @@
                 <path>./assets/mac/animations/1-1/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/1-1/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/1-1/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/1-1/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/1-1/PolaroidFG.webp</path>
             </image>
             <carousel name="main">
                 <pos>0 0</pos>	
@@ -251,10 +251,10 @@
                 <path>./assets/mac/animations/8-7/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/8-7/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/8-7/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/8-7/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/8-7/PolaroidFG.webp</path>
             </image>
             <carousel name="main">
                 <pos>0 0</pos>	
@@ -309,10 +309,10 @@
                 <path>./assets/mac/animations/4-3/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/4-3/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/4-3/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/4-3/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/4-3/PolaroidFG.webp</path>
             </image>
             <carousel name="main">
                 <pos>0 0</pos>	
@@ -370,10 +370,10 @@
                 <path>./assets/mac/animations/5-4/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/5-4/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/5-4/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/5-4/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/5-4/PolaroidFG.webp</path>
             </image>
             <carousel name="main">
                 <pos>0 0</pos>	
@@ -431,10 +431,10 @@
                 <path>./assets/mac/animations/3-2/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/3-2/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/3-2/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/3-2/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/3-2/PolaroidFG.webp</path>
             </image>
             <carousel name="main">
                 <pos>0 0</pos>	
@@ -492,10 +492,10 @@
                 <path>./assets/mac/animations/16-10/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/16-10/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/16-10/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/16-10/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/16-10/PolaroidFG.webp</path>
             </image>
             <clock name="sysclock">
                 <pos>.77 0</pos>
@@ -512,10 +512,10 @@
                 <path>./assets/mac/animations/195-9/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/195-9/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/195-9/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/195-9/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/195-9/PolaroidFG.webp</path>
             </image>
             <video name="gamevid-r">
                 <pos>0.69 0.35 </pos>
@@ -551,10 +551,10 @@
                 <path>./assets/mac/animations/20-9/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/20-9/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/20-9/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/20-9/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/20-9/PolaroidFG.webp</path>
             </image>
             <video name="gamevid-r">
                 <pos>0.69 0.35 </pos>
@@ -590,10 +590,10 @@
                 <path>./assets/mac/animations/21-9/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/21-9/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/21-9/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/21-9/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/21-9/PolaroidFG.webp</path>
             </image>
             <video name="gamevid-r">
                 <pos>0.67 0.35 </pos>
@@ -629,10 +629,10 @@
                 <path>./assets/mac/animations/5-3/system-video.json</path>
             </animation>
             <image name="polaroidBG">
-                <path>./assets/mac/frames/system/5-3/PolaroidBG.png</path>
+                <path>./assets/mac/frames/system/5-3/PolaroidBG.webp</path>
             </image>
             <image name="polaroidFG">
-                <path>./assets/mac/frames/system/5-3/PolaroidFG.png</path>
+                <path>./assets/mac/frames/system/5-3/PolaroidFG.webp</path>
             </image>
             <carousel name="main">
                 <pos>0 0</pos>	

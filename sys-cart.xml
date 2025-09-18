@@ -8,7 +8,7 @@
                 <fontSize>.036</fontSize>
                 <itemSize>.26 .26</itemSize> 
                 <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
-                <staticImage>./assets/physical-media/${system.theme}.png</staticImage>
+                <staticImage>./assets/physical-media/${system.theme}.webp</staticImage>
                 <maxItemCount>3</maxItemCount>
                 <imageType>none</imageType>
                 <itemScale>2.1</itemScale>
@@ -70,7 +70,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/background.jpg</path>
+            <path>./assets/mac/animations/background.webp</path>
             <color>ffffff</color>
             <colorEnd>1f0f0070</colorEnd>
             <gradientType>vertical</gradientType>
@@ -339,6 +339,7 @@
             </text>
             <clock name="sysclock">
                 <pos>.65 -0.02</pos>
+                <fontSize>.06</fontSize>
                 <horizontalAlignment>right</horizontalAlignment> 
             </clock>
             <systemstatus name="status-ind">

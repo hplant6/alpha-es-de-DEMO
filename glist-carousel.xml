@@ -13,7 +13,7 @@
                 <selectedItemOffset>0 -.06</selectedItemOffset>
                 <itemScale>1.85</itemScale>
                 <lineSpacing>.9</lineSpacing>
-                <defaultImage>./assets/physical-media/${system.theme}.png</defaultImage>
+                <defaultImage>./assets/physical-media/${system.theme}.webp</defaultImage>
                 <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
                 <color>${BGcolor}00</color>
                 <fastScrolling>true</fastScrolling>
@@ -58,15 +58,15 @@
             <slots>all</slots>
             <horizontalAlignment>left</horizontalAlignment>
             <badgeIconColor>ffffff</badgeIconColor>
-            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.png</customBadgeIcon>
-            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.png</customBadgeIcon>
-            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.png</customBadgeIcon>
-            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.webp</customBadgeIcon>
+            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.webp</customBadgeIcon>
+            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.webp</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.webp</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.webp</customBadgeIcon>
+            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.webp</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.webp</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.webp</customBadgeIcon>
+            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.webp</customBadgeIcon>
                 <zIndex>6</zIndex>
         </badges>
         <animation name="lines">
@@ -110,7 +110,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/gbackground-blank.png</path>
+            <path>./assets/mac/animations/gamelist/gbackground-blank.webp</path>
             <zIndex>0</zIndex>
         </image> 
         <image name="bgfil">
@@ -537,6 +537,70 @@
             <text name="alpha-title">
                 <pos>.1 .045</pos>
             </text>
+        </view>
+    </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="gamelist">
+            <carousel name="games">
+                <pos>.5 .26</pos>	
+                <itemSize>.21 .22</itemSize> 
+                <itemScale>2.5</itemScale>
+                <lineSpacing>.9</lineSpacing>
+                <maxItemCount>3</maxItemCount>
+                <selectedItemMargins>.04 .04</selectedItemMargins>
+                <selectedItemOffset>0 -0.07</selectedItemOffset>                
+                <unfocusedItemOpacity>.5</unfocusedItemOpacity>
+            </carousel>
+            <image name="syslogo">
+                <pos>0.5 .12</pos>
+                <origin>.5 0</origin>
+            </image>
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/5-3/gamelist-cart.json</path>
+            </animation>
+            <text name="game-title">
+                <pos>.5 .19</pos>
+                <origin>.5 0</origin>
+                <size>.85 .3</size>
+                <fontSize>.1</fontSize>
+                <verticalAlignment>center</verticalAlignment>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>5</zIndex>
+            </text>
+            <rating name="gamerating">
+                <pos>0.5 0.934</pos>
+                <origin>.5 0</origin>
+                <size> .047 .03 </size>
+            </rating>
+            <badges name="gbadges">
+                <pos>0.5 0.5</pos>
+                <origin>.5 0</origin>
+                <size>.67 .2</size>
+                <horizontalAlignment>center</horizontalAlignment>
+            </badges>
+            <gamelistinfo name="gcount">
+                <pos>0.5 .15</pos>
+                <size>.35 .1</size>
+                <origin>.5 0</origin>
+                <fontSize>.035</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+            </gamelistinfo>
+            <clock name="sysclock">
+                <pos>.65 -0.02</pos>
+                <horizontalAlignment>right</horizontalAlignment> 
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.24 .015</pos>
+                <height>0.035</height>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.21 .037</pos>
+            </text>
+            <helpsystem name="help">
+                <pos>0.5 0.085 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.031</fontSize>
+            </helpsystem>
         </view>
     </aspectRatio>    
 </theme>

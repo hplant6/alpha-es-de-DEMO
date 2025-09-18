@@ -8,7 +8,7 @@
                 <fontSize>.036</fontSize>
                 <itemSize>.26 .26</itemSize> 
                 <fontPath>./assets/mac/type/AdvercaseFont-Demo-Bold.otf</fontPath>
-                <staticImage>./assets/physical-media/${system.theme}.png</staticImage>
+                <staticImage>./assets/physical-media/${system.theme}.webp</staticImage>
                 <maxItemCount>3</maxItemCount>
                 <imageType>none</imageType>
                 <itemScale>2.1</itemScale>

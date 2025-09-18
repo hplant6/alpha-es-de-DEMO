@@ -65,7 +65,7 @@
             <origin>.5 1 </origin>
             <maxSize>.232 .3</maxSize>
             <imageType>physicalmedia</imageType>
-            <default>./assets/physical-media/${system.theme}.png</default>
+            <default>./assets/physical-media/${system.theme}.webp</default>
             <zIndex>5</zIndex>
         </image>
         -->
@@ -78,7 +78,7 @@
             <colorEnd>${white}50</colorEnd>
             <gradientType>vertical</gradientType>
             <scrollFadeIn>true</scrollFadeIn>
-            <default>./assets/physical-media/${system.theme}.png</default>
+            <default>./assets/default-media/covers/${system.theme}.webp</default>
             <zIndex>5</zIndex>
         </image>
         <video name="gamevid">
@@ -99,36 +99,36 @@
             <slots>all</slots>
             <horizontalAlignment>left</horizontalAlignment>
             <badgeIconColor>ffffff</badgeIconColor>
-            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.png</customBadgeIcon>
-            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.png</customBadgeIcon>
-            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.png</customBadgeIcon>
-            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.webp</customBadgeIcon>
+            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.webp</customBadgeIcon>
+            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.webp</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.webp</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.webp</customBadgeIcon>
+            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.webp</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.webp</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.webp</customBadgeIcon>
+            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.webp</customBadgeIcon>
                 <zIndex>6</zIndex>
         </badges>
         <image name="video-frame">
             <pos>0 0</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/frames/gamelist/video-frame.png</path>
+            <path>./assets/mac/frames/gamelist/video-frame.webp</path>
             <zIndex>5</zIndex>
         </image>
         <image name="lightbox">
             <pos>0 0</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+            <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
             <zIndex>3</zIndex>
         </image>
         <image name="cable">
             <pos>0 0</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/frames/gamelist/cable.png</path>
+            <path>./assets/mac/frames/gamelist/cable.webp</path>
             <opacity>.62</opacity>
             <zIndex>2</zIndex>
         </image>
@@ -154,7 +154,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/gbackground-video.png</path>
+            <path>./assets/mac/animations/gamelist/gbackground-video.webp</path>
             <zIndex>0</zIndex>
             <opacity>.6</opacity>
         </image>
@@ -233,7 +233,7 @@
                     <pos>-.1 1</pos>
                     <origin>0 1 </origin>
                     <size>1.2 .7</size>
-                    <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                    <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                     <zIndex>3</zIndex>
                 </image>
                 <video name="gamevid">
@@ -246,7 +246,7 @@
                     <pos>0 1</pos>
                     <origin>0 1 </origin>
                     <size>1 0.5625</size>
-                    <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                    <path>./assets/mac/frames/gamelist/video-frame.webp</path>
                     <zIndex>5</zIndex>
                 </image>
                 <image name="macimg-background">
@@ -258,7 +258,7 @@
                     <pos>-.1 1</pos>
                     <origin>0 1 </origin>
                     <size>1.2 .7</size>
-                    <path>./assets/mac/frames/gamelist/cable.png</path>
+                    <path>./assets/mac/frames/gamelist/cable.webp</path>
                     <opacity>.62</opacity>
                     <zIndex>2</zIndex>
                 </image>
@@ -315,7 +315,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.8</size>
-                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <video name="gamevid">
@@ -328,7 +328,7 @@
                 <pos>0 1</pos>
                 <origin>0 1</origin>
                 <size>1 0.6429</size>
-                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <path>./assets/mac/frames/gamelist/video-frame.webp</path>
                 <zIndex>5</zIndex>
             </image>
             <image name="macimg-background">
@@ -340,7 +340,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.8</size>
-                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <path>./assets/mac/frames/gamelist/cable.webp</path>
                 <opacity>.62</opacity>
                 <zIndex>2</zIndex>
             </image>
@@ -391,7 +391,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.9</size>
-                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <video name="gamevid">
@@ -404,7 +404,7 @@
                 <pos>0 1</pos>
                 <origin>0 1</origin>
                 <size>1 0.75</size>
-                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <path>./assets/mac/frames/gamelist/video-frame.webp</path>
                 <zIndex>5</zIndex>
             </image>
             <image name="macimg-background">
@@ -416,7 +416,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.9</size>
-                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <path>./assets/mac/frames/gamelist/cable.webp</path>
                 <opacity>.62</opacity>
                 <zIndex>2</zIndex>
             </image>
@@ -465,7 +465,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.8531</size>
-                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <video name="gamevid">
@@ -478,7 +478,7 @@
                 <pos>0 1</pos>
                 <origin>0 1</origin>
                 <size>1 0.7031</size>
-                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <path>./assets/mac/frames/gamelist/video-frame.webp</path>
                 <zIndex>5</zIndex>
             </image>
             <image name="macimg-background">
@@ -490,7 +490,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 0.8531</size>
-                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <path>./assets/mac/frames/gamelist/cable.webp</path>
                 <opacity>.62</opacity>
                 <zIndex>2</zIndex>
             </image>
@@ -539,7 +539,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 1</size>
-                <path>./assets/mac/frames/gamelist/video-lightbox.png</path>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
                 <zIndex>3</zIndex>
             </image>
             <video name="gamevid">
@@ -552,7 +552,7 @@
                 <pos>0 1</pos>
                 <origin>0 1</origin>
                 <size>1 0.8438</size>
-                <path>./assets/mac/frames/gamelist/video-frame.png</path>
+                <path>./assets/mac/frames/gamelist/video-frame.webp</path>
                 <zIndex>5</zIndex>
             </image>
             <image name="macimg-background">
@@ -564,7 +564,7 @@
                 <pos>-.1 1</pos>
                 <origin>0 1</origin>
                 <size>1.2 1</size>
-                <path>./assets/mac/frames/gamelist/cable.png</path>
+                <path>./assets/mac/frames/gamelist/cable.webp</path>
                 <opacity>.62</opacity>
                 <zIndex>2</zIndex>
             </image>
@@ -732,4 +732,113 @@
             </text>
         </view>
     </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="gamelist">
+            <carousel name="main">
+                <origin>0 0</origin>
+                <pos>0 -0.05</pos>	
+                <size>1 .72</size>
+                <itemSize>.35 0.05</itemSize> 
+                <itemScale>2.6</itemScale>
+                <itemsBeforeCenter>0</itemsBeforeCenter>
+                <itemsAfterCenter>5</itemsAfterCenter>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <type>vertical</type>
+                <color>${BGcolor}00</color>
+                <textColor>${glist}</textColor>
+                <textSelectedColor>${white}</textSelectedColor>
+                <lineSpacing>1</lineSpacing>
+
+                <selectedItemOffset>0 0</selectedItemOffset> 
+                <selectedItemMargins>0.4 .12</selectedItemMargins>
+                <maxItemCount>10</maxItemCount>
+                <itemHorizontalAlignment>left</itemHorizontalAlignment>
+                
+                <itemAxisRotation>0</itemAxisRotation>
+                <itemDiagonalOffset>0</itemDiagonalOffset>
+                <horizontalOffset>.05</horizontalOffset>
+                <verticalOffset>0</verticalOffset>
+                <zIndex>5</zIndex>
+            </carousel>
+            <badges name="gbadges">
+                <pos>0.047 0.43</pos>
+                <size>.35 .1</size>
+                <itemMargin> 0.05 0.05</itemMargin>
+            </badges>
+             <rating name="gamerating">
+                <pos>0.045 0.39</pos>
+                <size> .038 .03 </size>
+                <color>${white}</color>
+                <zIndex>5</zIndex>
+            </rating>
+            <image name="cover">
+                <pos>0.667 0.759</pos>
+                <origin>.5 .5</origin>
+                <cropSize>0.398 0.369</cropSize>
+            </image>
+            <image name="lightbox">
+                <pos>-.35 1</pos>
+                <origin>0 1 </origin>
+                <size>1.4 .5</size>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
+                <zIndex>3</zIndex>
+            </image>
+            <video name="gamevid">
+                <pos>0.49 .805</pos>
+                <cropSize>0.43 0.175</cropSize>
+                <cropPos>.5 0</cropPos>
+                <origin>.5 0</origin>
+            </video>
+            <image name="video-frame">
+                <pos>-.35 1.01</pos>
+                <origin>0 1 </origin>
+                <size>1.4 0.425</size>
+                <path>./assets/mac/frames/gamelist/video-frame.webp</path>
+                <zIndex>5</zIndex>
+            </image>
+            <image name="macimg-background">
+                <pos>-.2 1</pos>
+                <origin>0 1 </origin>
+                <size>1.2 .7</size>
+            </image>
+            <image name="cable">
+                <pos>-.2 1.02</pos>
+                <origin>0 1 </origin>
+                <size>1.2 .7</size>
+                <path>./assets/mac/frames/gamelist/cable.webp</path>
+                <opacity>.62</opacity>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="syslogo">
+                <pos>0.05 .12</pos>
+                <origin>0 0</origin>
+            </image>
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/5-3/gamelist-plain.json</path>
+            </animation>
+            <gamelistinfo name="gcount">
+                <pos>0.05 .15</pos>
+                <size>.35 .1</size>
+                <origin>0 0</origin>
+                <fontSize>.035</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+            </gamelistinfo>
+            <clock name="sysclock">
+                <pos>.7 -0.02</pos>
+                <horizontalAlignment>right</horizontalAlignment> 
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.2 .015</pos>
+                <height>0.035</height>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.17 .037</pos>
+            </text>
+            <helpsystem name="help">
+                <pos>0.5 0.085 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.031</fontSize>
+            </helpsystem>
+        </view>
+    </aspectRatio>    
 </theme>

@@ -8,7 +8,7 @@
             <itemScale>1.15</itemScale>
             <itemSpacing>0.02 0.03</itemSpacing>
             <imageType>physicalmedia, cover</imageType>
-            <defaultImage>./assets/physical-media/${system.theme}.png</defaultImage>
+            <defaultImage>./assets/physical-media/${system.theme}.webp</defaultImage>
             <defaultFolderImage>./_inc/images/folder.webp</defaultFolderImage> 
 			<scaleInwards>false</scaleInwards>
 			<unfocusedItemDimming>0.4</unfocusedItemDimming>
@@ -57,15 +57,15 @@
             <slots>all</slots>
             <horizontalAlignment>left</horizontalAlignment>
             <badgeIconColor>ffffff</badgeIconColor>
-            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.png</customBadgeIcon>
-            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.png</customBadgeIcon>
-            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.png</customBadgeIcon>
-            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.png</customBadgeIcon>
-            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.png</customBadgeIcon>
-            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.png</customBadgeIcon>
-            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.png</customBadgeIcon>
-            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.png</customBadgeIcon>
-            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.png</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./assets/mac/icons/badge-favorite.webp</customBadgeIcon>
+            <customBadgeIcon badge="collection">./assets/mac/icons/badge-collection.webp</customBadgeIcon>
+            <customBadgeIcon badge="folder">./assets/mac/icons/badge-folder.webp</customBadgeIcon>
+            <customBadgeIcon badge="completed">./assets/mac/icons/badge-complete.webp</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./assets/mac/icons/badge-kidgame.webp</customBadgeIcon>
+            <customBadgeIcon badge="broken">./assets/mac/icons/badge-broken.webp</customBadgeIcon>
+            <customBadgeIcon badge="controller">./assets/mac/icons/badge-controller.webp</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./assets/mac/icons/badge-altemulator.webp</customBadgeIcon>
+            <customBadgeIcon badge="manual">./assets/mac/icons/badge-manual.webp</customBadgeIcon>
                 <zIndex>6</zIndex>
         </badges>
         <animation name="lines">
@@ -103,21 +103,21 @@
             <colorEnd>${white}50</colorEnd>
             <gradientType>vertical</gradientType>
             <scrollFadeIn>true</scrollFadeIn>
-            <default>./assets/physical-media/${system.theme}.png</default>
+            <default>./assets/default-media/covers/${system.theme}.webp</default>
             <zIndex>5</zIndex>
         </image>
         <image name="lightbox">
             <pos>0 0</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/plain-lightbox.png</path>
+            <path>../assets/mac/frames/gamelist/plain-lightbox.webp</path>
             <zIndex>3</zIndex>
         </image>
         <image name="cable">
             <pos>0 .045</pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/cable.png</path>
+            <path>../assets/mac/frames/gamelist/cable.webp</path>
             <opacity>.62</opacity>
             <zIndex>2</zIndex>
         </image>
@@ -135,7 +135,7 @@
             <pos>0 0 </pos>
             <origin>0 0 </origin>
             <size>1 1</size>
-            <path>./assets/mac/animations/gamelist/gbackground-plain.png</path>
+            <path>./assets/mac/animations/gamelist/gbackground-plain.webp</path>
             <zIndex>0</zIndex>
         </image>
         <image name="bgfil">
@@ -657,5 +657,101 @@
                 <pos>.1 .045</pos>
             </text>
         </view>
-    </aspectRatio>    
+    </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="gamelist">
+            <grid name="game-grid">
+                <origin>0 0</origin> 
+                <pos>.046 .31</pos>	
+                <size>.92 .3</size>
+                <itemSize>0.19 0.1</itemSize>
+                <itemScale>1.15</itemScale>
+                <itemSpacing>0.02 0.02</itemSpacing>
+                <imageType>physicalmedia, cover</imageType>
+                <defaultImage>./assets/physical-media/${system.theme}.webp</defaultImage>
+                <defaultFolderImage>./_inc/images/folder.webp</defaultFolderImage> 
+                <scaleInwards>false</scaleInwards>
+                <unfocusedItemDimming>0.4</unfocusedItemDimming>
+                <unfocusedItemSaturation>0.7</unfocusedItemSaturation>
+                <fontSize>.25</fontSize>
+                <textColor>ffffff90</textColor>
+                <fractionalRows>false</fractionalRows>
+                <textRelativeScale>1</textRelativeScale>
+                <textBackgroundColor>CCCCCC00</textBackgroundColor>
+                <backgroundColor>00000000</backgroundColor>
+                <zIndex>10</zIndex>
+            </grid>
+            <text name="game-title">
+                <pos>.05 .22</pos>
+                <size>.9 .07</size>
+            </text>  
+            <badges name="gbadges">
+                <pos>0.05 0.61</pos>
+                <size>.35 .1</size>
+                <itemMargin> 0.05 0.05</itemMargin>
+            </badges>
+             <rating name="gamerating">
+                <pos>0.05 0.56</pos>
+                <size> .038 .03 </size>
+                <color>${white}</color>
+                <zIndex>5</zIndex>
+            </rating>
+            <image name="cover">
+                <pos>0.667 0.759</pos>
+                <origin>.5 .5</origin>
+                <cropSize>0.398 0.369</cropSize>
+            </image>
+            <image name="lightbox">
+                <pos>-.35 1</pos>
+                <origin>0 1 </origin>
+                <size>1.4 .5</size>
+                <path>./assets/mac/frames/gamelist/video-lightbox.webp</path>
+                <zIndex>3</zIndex>
+            </image>
+            
+            <image name="macimg-background">
+                <pos>-.2 1</pos>
+                <origin>0 1 </origin>
+                <size>1.2 .7</size>
+            </image>
+            <image name="cable">
+                <pos>-.2 1.04</pos>
+                <origin>0 1 </origin>
+                <size>1.2 .7</size>
+                <path>./assets/mac/frames/gamelist/cable.webp</path>
+                <opacity>.62</opacity>
+                <zIndex>2</zIndex>
+            </image>
+            <image name="syslogo">
+                <pos>0.05 .12</pos>
+                <origin>0 0</origin>
+            </image>
+            <animation name="lines">
+                <path>./assets/mac/animations/gamelist/5-3/gamelist-plain.json</path>
+            </animation>
+            <gamelistinfo name="gcount">
+                <pos>0.05 .15</pos>
+                <size>.35 .1</size>
+                <origin>0 0</origin>
+                <fontSize>.035</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+            </gamelistinfo>
+            <clock name="sysclock">
+                <pos>.7 -0.02</pos>
+                <horizontalAlignment>right</horizontalAlignment> 
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.2 .015</pos>
+                <height>0.035</height>
+            </systemstatus>
+            <text name="alpha-title">
+                <pos>.17 .037</pos>
+            </text>
+            <helpsystem name="help">
+                <pos>0.5 0.085 </pos>
+                <origin>.5 0 </origin>
+                <fontSize>.031</fontSize>
+            </helpsystem>
+        </view>
+    </aspectRatio>        
 </theme>
